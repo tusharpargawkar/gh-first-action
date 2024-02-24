@@ -5,7 +5,7 @@ jobs:
   runs-on: windows-latest
   steps:
    - name: Print branch name 
-     run: echo "runnig on ${GITHUB_REF##*/}"
+     run: echo runnig on ${GITHUB_REF##*/}
    - name: Print greeting
      run: echo "Hellow world!"
    - name: Printing final message
